@@ -14,7 +14,7 @@ if(i%15 == 0){
   li.textContent=i
  }
   
-  document.getElementByid('list').appendChild(li);
+  document.getElementById('list').appendChild(li);
   
   
  };
