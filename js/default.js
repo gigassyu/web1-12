@@ -6,6 +6,7 @@ var li = document.createElement('li');
 li.textContent = i +'回目';
 document.getElementByid('list').appendChild(li);
 document.getElementByid('form').onsubmit = function(){
- window.alert('押されました');
+ window.alert(document.getElementByid('form').word.value);
  };
+
  
